@@ -5,7 +5,6 @@ import PackageDescription
 let package = Package(
     name: "spdlog",
     platforms: [
-        .macOS(.v11),
         .iOS(.v13)
     ],
     products: [
